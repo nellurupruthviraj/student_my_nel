@@ -5,3 +5,4 @@ for i in a:
     if b == str:
         c = c+1
 print(c)
+l=[8,9,10,11]
