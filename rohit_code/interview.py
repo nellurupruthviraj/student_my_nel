@@ -5,3 +5,4 @@ for i in a:
     if b == str:
         c = c+1
 print(c)
+l-[1,4,6,8]
