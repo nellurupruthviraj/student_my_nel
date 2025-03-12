@@ -24,3 +24,14 @@ elif D > C:
     print("D is grater")
 else:
     print("E is grater")
+
+Z= ("Nitin")
+S= ("Rahul")
+G =("Sharan")
+
+if "i" in Z:
+    print("Nitin")
+    if "l" in S:
+        print("Rahul")
+        if "r" in G:
+            print("Sharan")
