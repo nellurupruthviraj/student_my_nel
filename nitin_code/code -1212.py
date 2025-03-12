@@ -34,4 +34,8 @@ if "i" in Z:
     if "l" in S:
         print("Rahul")
         if "r" in G:
-            print("Sharan")
+            print("S")
+
+N= (2,4,5,"Nitin", "Sharan")
+sumcount = sum(1 for item in "n" if isinstance(item,str))
+print(sumcount)
