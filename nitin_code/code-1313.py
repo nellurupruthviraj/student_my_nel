@@ -1,3 +1,4 @@
+'''
 l=[1,2,4,5,6,7]
 
 for s in l:
@@ -68,4 +69,24 @@ b=("Bangalore")
 for i in b:
     if i == "B":
         pass
-    print(i)
+    print(i) '''
+
+
+G=("Bangalore City")
+
+print(G[2:4])
+print(G[:6])
+print(G[-9])
+
+G=("Bangalore City")
+
+for i in G:
+    if i == "C":
+        print("C is present")
+
+
+G=("Bangalore City")
+
+for i in G:
+    if i == "y":
+        print(i)
