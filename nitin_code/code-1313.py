@@ -90,3 +90,8 @@ G=("Bangalore City")
 for i in G:
     if i == "y":
         print(i)
+
+A = 28
+B = 889
+C = (A+B)
+print(C)
