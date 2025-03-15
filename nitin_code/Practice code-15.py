@@ -9,3 +9,11 @@ B = ("Bangalore")
 for i in B:
     i+="city"
     print(i)
+
+H =("Hello Bangalore how are you")
+
+print(H,"\n" "How is the Day")
+
+G = ("Hii \n Hello \n Goog Morning")
+
+print(G)
