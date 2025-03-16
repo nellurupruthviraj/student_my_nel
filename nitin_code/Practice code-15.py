@@ -17,3 +17,7 @@ print(H,"\n" "How is the Day")
 G = ("Hii \n Hello \n Goog Morning")
 
 print(G)
+
+D=("Welcome to google")
+A=D.split()
+print(A)
