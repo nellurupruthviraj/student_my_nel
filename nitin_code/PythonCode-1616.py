@@ -3,10 +3,10 @@ B=input("enter second number")
 
 if "A" > "B":
     print("A is grater")
-elif "B" >"A":
+elif "B" > "A":
     print("B is grater")
 else:
-    print("Nothing")
+    print("Both Are Equal")
 
 C= input ("enter a number 1")
 D= input ("enter a number 2")
@@ -33,3 +33,10 @@ print(A+B)
 L=[1,2,3,4,5,6,7,8,9]
 K=(L[0:7])
 print(K)
+
+
+A= ("Bangalore")
+
+for i in A:
+    print(i)
+    print(A)
