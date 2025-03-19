@@ -33,3 +33,8 @@ i=6
 while i<len(G):
     print(G[i])
     i+=1
+    
+A=("aaaa", "bbb", "uuu", "ttt", "hhh")
+for i in A:
+    print(A)
+
