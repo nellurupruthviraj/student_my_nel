@@ -1,4 +1,4 @@
-A=[1,2,3,4,5,6]
+'''A=[1,2,3,4,5,6]
 B=[7,8,9,10,11,12]
 A.append(B)
 print(A)
@@ -19,5 +19,17 @@ U="Bangalore"
 
 i=0
 while i<len(U):
-    print(s[i])
+    print(U[i])
     i+=2
+
+F="Karnataka"
+i=0
+while i<len(F):
+    print(F[i])
+    i+=2'''
+
+G="hello good morning how is the day"
+i=6
+while i<len(G):
+    print(G[i])
+    i+=1
