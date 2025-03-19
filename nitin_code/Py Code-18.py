@@ -1,4 +1,4 @@
-'''a=10
+a=10
 b=10
 c=20
 
@@ -44,7 +44,7 @@ print(Q)
 i=["Apple", "Banana", "Grapes", "Mango"]
 
 if "Apple" in i:
-    print("Yes, Apple is present")'''
+    print("Yes, Apple is present")
 
 i = ["Apple", "Banana", "Grapes"]
 if "Mango" not in i:
