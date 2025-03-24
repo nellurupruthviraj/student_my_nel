@@ -1,3 +1,4 @@
+
 a = str(input("enter"))
 b = []
 dd = 0
@@ -7,5 +8,5 @@ for i in a:
             dd = dd + 1
     if i not in b:
         b.append(i)
-        print(f"{i} {dd}", end=" ")
+
     dd = 0
