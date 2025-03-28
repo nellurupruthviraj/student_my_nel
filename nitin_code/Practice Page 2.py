@@ -1,5 +1,5 @@
 
-
+'''
 A= "hello good morning how is the day, welcme a bangalore"
 a=len(A)//2
 print(A[a:])
@@ -199,5 +199,180 @@ for letter in  name:
 
 name="Nitin"
 for letter in name:
-   print(letter*5,end=" ")
+   print(letter*5,end=" ") '''
+from itertools import count
+from operator import truediv
 
+n=1
+while n<=3:
+   print(n)
+   n+=1
+
+X=str(3)
+print(X)
+
+x=5
+y="Jhon"
+print(type(x))
+print(type(y))
+
+
+x,y,z="orange","banana","cherry"
+print(x)
+
+x=y=z="orange","banana","cherry"
+print(x)
+
+x="awesome"
+print("python is" ,x)
+
+
+X="super"
+
+def my_fn():
+   X="Nice"
+   print("India is", X)
+
+my_fn()
+print("America is", X)
+
+X="super"
+
+def my_fnc():
+   global X
+   X="Nice"
+   print("India is", X)
+
+my_fnc()
+print("America is" , X)
+
+x="Hello World"
+print(type(x))
+
+x=20
+print(type(x))
+
+x=20.5
+print(type(x))
+
+x=2+10j
+print(type(x))
+
+x=["Apple","Banana"]
+print(type(x))
+
+x=("Apple","Banana","mango")
+print(type(x))
+
+x=range(1,10)
+print(type(x))
+
+x={"name":"Nitin","age":26,"address":"Bangalore"}
+print(type(x))
+
+x={"Apple","Banana"}
+print(type(x))
+
+x=frozenset(("apple","Banana", "Mango"))
+print(type(x))
+
+x=True
+print(type(x))
+
+import random
+print(random.randrange(1,10))
+
+a="hello world"
+print(a[1])
+print(a[6])
+
+x="banana"
+for i in x:
+   print(i)
+
+a="hello wolrd"
+print(len(a))
+
+x="the best things in life are free!"
+print("free" in x)
+print("are" not in x)
+
+A="Hello, World!"
+print(A[2:5])
+
+A="Hello, World!"
+print(A[:])
+
+A="Hello, World!"
+print(A.upper())
+
+A="Hello, World!"
+print(A.lower())
+
+A=" Hello, World! "
+print(A.strip())
+
+A="Hello, World!"
+print(A.lstrip())
+
+A="Hello, World!"
+print(A.rstrip())
+
+A="Hello, World!"
+print(len(A))
+
+A=[11,1,12,3,4,5,6,4,4,3,3,44,5]
+print(A.count(3))
+print(A.count(4))
+print(sum(A))
+
+A="Hello, World!"
+print(A.replace("World","India"))
+print(A.replace("World","Karnataka"))
+
+A="Hello, World!"
+print(A.split())
+
+A="Hello, World!"
+A="Hello, World!"
+
+print(A+" "+ A)
+
+A="Nitin"
+B="Bangalore"
+C= "Day"
+S="Hello {}, You are from {}, Have a good {}"
+print(S.format(A,B,C))
+
+A="Hello, Wor\'ld!"
+print(A)
+
+A="It\'s Very good"
+print(A)
+
+A="Hello, \\World!"
+print(A)
+
+A="Hello,\n World!"
+print(A)
+
+A="Hello, \r World!"
+print(A)
+
+A="Hello, \tWorld!"
+print(A)
+
+A="Hello, \bWorld!"
+print(A)
+
+A= "hello good morning how is the day, welcome a bangalore"
+print(A.capitalize())
+
+A= "hello good morning how is the day, welcome a bangalore"
+print(A.casefold())
+
+A= "hello good morning how is the day, welcome a bangalore"
+print(A.encode())
+
+A= "hello good morning how is the day, welcome a bangalore"
+print(A.endswith("bangalore" ))
