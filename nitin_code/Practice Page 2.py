@@ -376,3 +376,12 @@ print(A.encode())
 
 A= "hello good morning how is the day, welcome a bangalore"
 print(A.endswith("bangalore" ))
+
+A="Nitin"
+for i in A:
+   print(i,end=" ")
+
+
+A='Nitin Kannur'
+for i in A:
+      print(i*2,end=" ")
