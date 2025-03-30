@@ -1,9 +1,9 @@
-a = "ssttaas"
+a ="sssdddfff"
 #from collections import Counter
 c = {}
 def cou(b,d):
     #c = dict(Counter(a))
-    #c = {i:a.count(i) for i in a}
+    c = {i:a.count(i) for i in a}
     print(c)
 
     for s in c.values():
