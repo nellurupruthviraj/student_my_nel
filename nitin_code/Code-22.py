@@ -16,4 +16,4 @@ a = 8
 print(f" a is present in {a} jkbjh")
 
 A=("Bangalore city")
-print(A)
+
