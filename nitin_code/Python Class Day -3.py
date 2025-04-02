@@ -334,3 +334,29 @@ print(x.values())
 
 x={"Name":"Rahul","age":30,"address":"Bangalore","MNo":9900998800}
 print(x.items())
+
+
+X="3[a2[d]]"
+z=[]
+A=str(X)
+for i in A:
+    if i=="a":
+        a=(i*3)
+        z.append(a)
+    if i=="b":
+        a=(i)
+    if i=="c":
+        c=(i)
+        M=a+c
+        z.append(M)
+        n=a+c
+        z.append(n)
+        print(z)
+
+S="3[a2[c]]"
+def decode_string(S):
+    num1=int(s[0])
+    num2=int(s[3])
+    return 'acc'
+
+
