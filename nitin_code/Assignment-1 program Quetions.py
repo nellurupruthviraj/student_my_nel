@@ -13,7 +13,7 @@ else:
     print("number is even")
 
 
-#### 2) check if a number is palindrime or not
+#### 2) check if a number is palindrome or not
 S = input("enter a number: ")
 if S == S[::-1]:
     print("It is palindrome")
@@ -58,7 +58,7 @@ else:
 
 
 
-#### 5) sum of frist N Natural number
+#### 5) sum of first N Natural number
 
 n= int(input("enter a number: "))
 sum = n *(n+1)//2
@@ -79,7 +79,7 @@ c=int(input("enter a number3: "))
 print(sum_off(a,b,c))
 
 
-#### 7) gratest of two numbers
+#### 7) greatest of two numbers
 
 A=int(input("enter a numberA: "))
 B=int(input("enter a numberB: "))
@@ -92,7 +92,7 @@ else:
     print("Both are equal")
 
 
-#### 8) Gratest of Three numbers
+#### 8) Greatest of Three numbers
 
 A=int(input("enter a numberA: "))
 B=int(input("enter a numberB: "))
