@@ -1,4 +1,4 @@
-
+'''
 x="what is the best way to get to the airport?"
 print(x.capitalize())
 
@@ -194,10 +194,10 @@ for i in A:
     if i=="morning":
         print(i)
 
-'''A=[10,20,30,40,50,50,60,70,80,90]
+A=[10,20,30,40,50,50,60,70,80,90]
 for i in A:
     for j in A:
-        print(i,j,end=" ")'''
+        print(i,j,end=" ")
 
 
 A=[10,20,30,40,50,50,60,70,80,90]
@@ -284,9 +284,6 @@ A="Hello good morning How are you"
 print("Yes" not in A)
 
 ###List Methods
-A=[10,20,30,40,50,60,70,80,90,100]
-A.append(110)
-print(A)
 
 A=[10,20,30,40,50,60,70,80,90,100]
 A[2]=111
@@ -374,9 +371,59 @@ for i in A:
     if i%2==0:
         L.append(i)
         L.sort()
-        print(L)
+        print(L)'''
 
 
 
+stud=["Nitin","Sharan","Rahul"]
+marks=[40,45,50]
+stud_mark={}
+
+for index, student in enumerate(stud):
+    stud_mark[student] =marks[index]
+
+print(stud_mark)
 
 
+stud=["Nitin","Sharan","Rahul"]
+marks=[40,45,50]
+stud_mark={}
+
+for i in range(3):
+    stud_mark[stud[i]] =marks[i]
+
+print(stud_mark)
+
+
+stud=["Nitin","Sharan","Rahul","Suresh"]
+marks=[40,45,50,70]
+stud_mark={}
+
+for i in range(len(stud)):
+    stud_mark[stud[i]]=marks[i]
+print(stud_mark)
+
+
+l=[1,2,3,4,5]
+dl=[item*2 for item in l]
+print(dl)
+
+
+l=[x for x in range(1,11)]
+el=[x*2 for x in l if x%2==0]
+print(el)
+
+l=[a for a in range(1,15,2)]
+on=[a*2 for a in l if a%2==0]
+print(on)
+
+stud=["Nitin","Sharan","Rahul","Suresh"]
+A=[x[1] for x in stud]
+print(A)
+
+stud=["Nitin","Sharan","Rahul","Suresh"]
+print([x[3] for x in stud])
+
+l=[x for x in range(1,11)]
+l1=[x for x in l if x%2==0]
+print(l1)
