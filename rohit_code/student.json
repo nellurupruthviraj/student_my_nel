@@ -1,0 +1,85 @@
+{
+  "student": [
+    {
+      "name": "student_1",
+      "age": 20,
+      "gender": "female",
+      "subject1": { "name": "maths", "marks": [91, 68, 80] },
+      "subject2": { "name": "english", "marks": [89, 64, 58] },
+      "subject3": { "name": "science", "marks": [85, 56, 83] }
+    },
+    {
+      "name": "student_2",
+      "age": 21,
+      "gender": "male",
+      "subject1": { "name": "maths", "marks": [76, 82, 90] },
+      "subject2": { "name": "english", "marks": [71, 85, 79] },
+      "subject3": { "name": "science", "marks": [88, 67, 75] }
+    },
+    {
+      "name": "student_3",
+      "age": 22,
+      "gender": "female",
+      "subject1": { "name": "maths", "marks": [60, 72, 69] },
+      "subject2": { "name": "english", "marks": [77, 58, 65] },
+      "subject3": { "name": "science", "marks": [70, 80, 76] }
+    },
+    {
+      "name": "student_4",
+      "age": 20,
+      "gender": "male",
+      "subject1": { "name": "maths", "marks": [85, 78, 92] },
+      "subject2": { "name": "english", "marks": [66, 74, 81] },
+      "subject3": { "name": "science", "marks": [89, 90, 85] }
+    },
+    {
+      "name": "student_5",
+      "age": 23,
+      "gender": "female",
+      "subject1": { "name": "maths", "marks": [95, 89, 87] },
+      "subject2": { "name": "english", "marks": [88, 91, 85] },
+      "subject3": { "name": "science", "marks": [90, 88, 93] }
+    },
+    {
+      "name": "student_6",
+      "age": 19,
+      "gender": "male",
+      "subject1": { "name": "maths", "marks": [55, 60, 59] },
+      "subject2": { "name": "english", "marks": [62, 58, 60] },
+      "subject3": { "name": "science", "marks": [57, 65, 61] }
+    },
+    {
+      "name": "student_7",
+      "age": 21,
+      "gender": "female",
+      "subject1": { "name": "maths", "marks": [78, 84, 88] },
+      "subject2": { "name": "english", "marks": [85, 79, 90] },
+      "subject3": { "name": "science", "marks": [82, 87, 84] }
+    },
+    {
+      "name": "student_8",
+      "age": 20,
+      "gender": "male",
+      "subject1": { "name": "maths", "marks": [69, 72, 66] },
+      "subject2": { "name": "english", "marks": [75, 78, 74] },
+      "subject3": { "name": "science", "marks": [70, 68, 73] }
+    },
+    {
+      "name": "student_9",
+      "age": 22,
+      "gender": "female",
+      "subject1": { "name": "maths", "marks": [92, 95, 97] },
+      "subject2": { "name": "english", "marks": [90, 93, 92] },
+      "subject3": { "name": "science", "marks": [94, 96, 95] }
+    },
+    {
+      "name": "student_10",
+      "age": 23,
+      "gender": "male",
+      "subject1": { "name": "maths", "marks": [48, 52, 60] },
+      "subject2": { "name": "english", "marks": [55, 50, 58] },
+      "subject3": { "name": "science", "marks": [61, 59, 62] }
+    }
+  ]
+}
+
