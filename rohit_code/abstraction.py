@@ -9,7 +9,7 @@ class maths(ABC):
 class Science(maths):
     def __init__(self,c,d):
         super().__init__("Science")
-        self.c =  Add is called from science")
+
 class phy(maths):
     def __init__(self, e):
         super().__init__("phy")

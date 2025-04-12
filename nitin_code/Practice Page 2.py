@@ -200,8 +200,6 @@ for letter in  name:
 name="Nitin"
 for letter in name:
    print(letter*5,end=" ") '''
-from itertools import count
-from operator import truediv
 
 n=1
 while n<=3:
@@ -377,7 +375,57 @@ print(A.encode())
 A= "hello good morning how is the day, welcome a bangalore"
 print(A.endswith("bangalore" ))
 
-A="Nitin"
+A= "hello good morning how is the day, welcome a bangalore"
+print(A.expandtabs())
+
+A= "hello good morning how is the day, welcome a bangalore"
+print(A.find("a"))
+a=len(A)// 2
+print(A[:a])
+print(A[a:])
+
+A= "hello good morning how is the day, welcome a bangalore"
+print(A.find("g"))
+
+z="Nice meet you"
+A= "hello good morning how is the day, welcome a bangalore, {}"
+print(A.format(z))
+
+A= "hello good morning how is the day, welcome a bangalore"
+print(A.format_map("is"))
+
+A= "hello good morning how is the day, welcome a bangalore"
+print(A.index("m"))
+
+A= "hello good morning how is the day, welcome a bangalore"
+print(A.isalnum())
+
+A= "hello good morning how is the day, welcome a bangalore"
+print(A.isdecimal())
+
+################## BOOOLEAN:
+
+print(10>9)
+print(10==9)
+print(10<9)
+
+
+a=200
+b=33
+
+if b>a:
+   print("b is grater then a")
+else:
+   print("b is not grater then a")
+
+
+
+
+
+
+
+
+'''A="Nitin"
 for i in A:
    print(i,end=" ")
 
@@ -385,3 +433,8 @@ for i in A:
 A='Nitin Kannur'
 for i in A:
       print(i*2,end=" ")
+
+
+
+####for i in range(1,11):
+  ### print(f"2X{i}={2*i}")'''
