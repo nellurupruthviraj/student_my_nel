@@ -1,12 +1,13 @@
-def ad(a,data,b =0):
+def ad(a,data,b =0,e = 0):
     if a == "1":
         o = ge()
         o.gen(data)
     elif a == "2":
         o= subject()
         o.maths(data,b)
-    elif a =="4":
-        pass
+    elif a =="3":
+        f = all()
+        f.anyy(data, e)
     else:
         return "enter the correct number"
 
@@ -59,4 +60,30 @@ class subject(cell):
                 sum = sum + i
             kk = sum // 3
             print(f"{bb}'s avg marks in {ab} is {kk} ")
+class avgg(subject):
+    def av(self,o,j):
+        for i in o:
+            a = o["name"]
+            b = o["marks"]
+            c = sum(b)
+            d = c//3
+            return f"{a} avg marks {d}"
+
+
+
+
+class all(avgg):
+    def anyy(self,o,aa):
+        c = super().fin(o)
+        for i in c:
+            #print(i)
+            if i["name"] == aa:
+                for j in i:
+                    if j == "subject1" or j == "subject2" or j == "subject3":
+                        s = super().av(i[j],j)
+                        print(s )
+                    elif j:
+                        print(j,i[j])
+
+
 
